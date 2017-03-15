@@ -1,8 +1,99 @@
-html {
-  text-size-adjust: 100%;
+body {
+    font-family: Arial,sans-serif;
 }
 
-body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+nav {
+background-color: #eaedf2;
 }
+
+a { text-decoration: none;
+
+  }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav ul {
+  border-top: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+  font-family: "helvetica Nue", "arial", sans-serif;
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+main {
+  /* Push the main part of the page down to accomodate the fixed nav */
+  padding-top: 1.5em;
+}
+
+.homelink a {
+
+  color: #a30606;
+  font-weight: bold;
+
+}
+
+
+nav li {
+ display:inline;
+ margin: 0 30px;
+}
+
+nav img {
+height: 20px
+
+}
+
+nav a {
+  color: black;
+
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+
+}
+
+.images img {
+
+}
+
+h1{
+   text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.text {
+display: flex;
+justify-content: space-between;
+font-size: 13px;
+font-weight: bold;
+}
+
+.text p {
+
+  margin: 0 10px;
+
+
+}
+
+.whats-new h3 {
+margin:  10px;
+width: 300px;
+color:#a30606
+
+}
+ 
